@@ -1,23 +1,330 @@
 {% include 'webapp/template_top.twig' with template %}
+            <!-- Début du style -->
+            <style>
+            
+            body{
+                        font-family: :'Lato', sans-serif;
+            }
+
+            h1
+            {
+                         font-size: 100px;
+                         color: white;
+                         font-weight: 900;
+            }
+
+            h2
+            {
+                        font-size: 20px;
+                        color: black;
+            }
+            h3
+            {
+                        font-size: 15px;
+            }
+            h2,h3,h4,h5,h6
+            {
+                        font-weight: bold;
+            }
+            img
+            {
+                        max-width: 100%;
+                        height: auto;
+            }
+
+            /* plus*/
+
+            #Main
+            {
+                        padding-top: 30px;
+                        background-image: url("https://s3.dexerto.com/thumbnails/_thumbnailLarge/556287/How-to-find-hidden-Fortnite-banner-for-Week-8-Season-8-min.jpg");
+
+                        text-align: center;
+                        margin: 0 auto;
+
+            }
+
+            .profile-entreprise
+            {
+
+                        margin: 0 auto;
+                        padding-bottom: 20px;
+                        float: none;
+
+            }
+
+            .heading
+            {
+            text-align: center;
+
+            }
+
+            .contact-us
+            {
+                        padding-top: 60px;
+                        text-align: center;
+                        float: none;
+            }
+            #Contact
+            {
+                        background: blue;
+                        text-align: center;
+                        margin: 0 auto;
+
+            }
+            .aka
+            {
+                        padding-bottom: 10px;
+                        padding-right: 10px;
+                        padding-left: 0px;
+
+            }
+
+            .akao
+            {
+                        padding-bottom: 10px;
+                        padding-right: 0px;
+                        padding-left: 0px;
+
+            }
+
+
+
+            .bob
+            {
+                        background-color: #ffffffb3;
+
+
+
+            }
+
+            #SignIn
+            {
+                        text-align: center;
+                        margin: 0 auto;
+            }
+            .img-responsive2
+            {
+                        display: block;
+
+                        max-width: 100%;
+
+                        height: auto;
+            }
+            .img-KK
+            {
+                        display: block;
+
+                        max-width: 50%;
+
+                        height: auto;
+            }
+
+            .cheze
+            {
+
+            }
+
+            .thumbnail 
+            {
+                        display: block;
+                        padding: 4px;
+                            padding-top: 4px;
+                            padding-right: 4px;
+                            padding-bottom: 4px;
+                            padding-left: 4px;
+                        margin-bottom: 0px;
+                        line-height: 1.42857143;
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                            border-top-color: rgb(221, 221, 221);
+                            border-top-style: solid;
+                            border-top-width: 1px;
+                            border-right-color: rgb(221, 221, 221);
+                            border-right-style: solid;
+                            border-right-width: 1px;
+                            border-bottom-color: rgb(221, 221, 221);
+                            border-bottom-style: solid;
+                            border-bottom-width: 1px;
+                            border-left-color: rgb(221, 221, 221);
+                            border-left-style: solid;
+                            border-left-width: 1px;
+                            border-image-outset: 0;
+                            border-image-repeat: stretch;
+                            border-image-slice: 100%;
+                            border-image-source: none;
+                            border-image-width: 1;
+                        border-radius: 4px;
+                            border-top-left-radius: 150px;
+                            border-top-right-radius: 150px;
+                            border-bottom-right-radius: 0px;
+                            border-bottom-left-radius: 0px;
+                        -webkit-transition: border .2s ease-in-out;
+                            transition-property: border;
+                            transition-duration: 0.2s;
+                            transition-timing-function: ease-in-out;
+                            transition-delay: 0s;
+                        -o-transition: border .2s ease-in-out;
+                        transition: border .2s ease-in-out;
+                            transition-property: border;
+                            transition-duration: 0.2s;
+                            transition-timing-function: ease-in-out;
+                            transition-delay: 0s;
+
+
+                        max-width: 70%;
+                        margin: auto;
+
+
+            }
+
+
+
+            .chocolat
+            {
+
+
+                        display: block;
+                        padding: 4px;
+                            padding-top: 4px;
+                            padding-right: 4px;
+                            padding-bottom: 4px;
+                            padding-left: 4px;
+                        margin-bottom: 0px;
+                        line-height: 1.42857143;
+                        background-color: #fff9;
+                        border: 1px solid #ddd;
+                            border-top-color: rgb(221, 221, 221);
+                            border-top-style: solid;
+                            border-top-width: 1px;
+                            border-right-color: rgb(221, 221, 221);
+                            border-right-style: solid;
+                            border-right-width: 1px;
+                            border-bottom-color: rgb(221, 221, 221);
+                            border-bottom-style: solid;
+                            border-bottom-width: 1px;
+                            border-left-color: rgb(221, 221, 221);
+                            border-left-style: solid;
+                            border-left-width: 1px;
+                            border-image-outset: 0;
+                            border-image-repeat: stretch;
+                            border-image-slice: 100%;
+                            border-image-source: none;
+                            border-image-width: 1;
+                        border-radius: 4px;
+                            border-top-left-radius: 0px;
+                            border-top-right-radius: 0px;
+                            border-bottom-right-radius: 4px;
+                            border-bottom-left-radius: 4px;
+                        -webkit-transition: border .2s ease-in-out;
+                            transition-property: border;
+                            transition-duration: 0.2s;
+                            transition-timing-function: ease-in-out;
+                            transition-delay: 0s;
+                        -o-transition: border .2s ease-in-out;
+                        transition: border .2s ease-in-out;
+                            transition-property: border;
+                            transition-duration: 0.2s;
+                            transition-timing-function: ease-in-out;
+                            transition-delay: 0s;
+
+
+                        max-width: 70%;
+                        margin: auto;
+            }
+            
+            </style>
+
             <!-- Début du code -->
 
 
             <div class="bg-primary" style="width: 100%;">
                 <div class="bg-dark" style="width: 75%; margin: 0px auto 0px">
-                    <h1>Acceuil</h1>
-                    <br>
-                    <div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
-                        <div class="carousel-inner w-100" style="background: center/100% url('/img/transition.jpg')">
-                            <div class="carousel-item active" style="background: center/100% url('/img/oeuvre/Photo-site-oeuvre-dart-1.jpg') no-repeat; padding-top: 100%;" data-interval="1000">
-                            </div>
-                            <div class="carousel-item" style="background: center/100% url('/img/transition.jpg'); padding-top: 100%;" data-interval="10">
-                            </div>
-                            <div class="carousel-item" style="background: center/100% url('/img/oeuvre/oeuvre-d-art-contemporain-adolescent-13-agusil.jpg'); padding-top: 100%;" data-interval="1000">
-                            </div>
-                            <div class="carousel-item" style="background: center/100% url('/img/transition.jpg'); padding-top: 100%;" data-interval="10">
-                            </div>
-                        </div>
-                    </div>
+                    <section id="Main" class="container-fluid">
+			<div class="row">
+				<div style="padding-top: 25px; padding-bottom: 25px" class="cheze">
+					<h1 > OANI </h1>
+					<p style="color: white; font-size: 20px"> Locations d'oeuvres de père en fils depuis 1984 </p>
+				</div>
+			</div>
+
+				<div id="B1" class="row" style="margin: 0px;">
+					
+					<div id="B1.1" class="col-sm-5 col-lg-4">
+						<div class="row ">
+							<div class="col-sm-12">
+								<a class="thumbnail " href="#">
+									<h2> OEUVRES  </h2>
+									<img src="https://storage.gra3.cloud.ovh.net/v1/AUTH_ca60d77ddd5e42749d7c4c17f753540d/ugm-data/pictures/cbtableaux/1971369-tableau-peinture-sur-toile-au-couteau-peinture-a-l-huile-1_medium.webp?1551121870" class="  img-circle  ">
+								</a>
+							</div>
+							
+
+						</div>
+						<div class="row" style="">						
+							<div class="col-sm-12">
+								<div class=" chocolat bob">
+									<h3>Nos oeuvres et nos présentations...</h3>
+								</div>
+							</div>
+							
+
+						</div>
+						
+						
+
+						
+					</div>
+					<div id="B1.2" class="col-sm-5 col-lg-4">
+
+						<div class="row ">
+							<div class="col-sm-12">
+								<a class="thumbnail " href="#">
+									<h2> ARTISTES  </h2>
+									<img src="https://storage.gra3.cloud.ovh.net/v1/AUTH_ca60d77ddd5e42749d7c4c17f753540d/ugm-data/pictures/cbtableaux/1971369-tableau-peinture-sur-toile-au-couteau-peinture-a-l-huile-1_medium.webp?1551121870" class=" KK img-circle bat">
+								</a>
+							</div>
+							
+
+						</div>
+						<div class="row" style="">						
+							<div class="col-sm-12">
+							<div class=" chocolat bob">
+								<h3>Nos Artistes ...</h3>
+							</div>
+							</div>
+							
+
+						</div>
+					</div>
+						
+					<div id="B1.3" class="col-sm-5 col-lg-4" >
+						
+						<div class="row ">
+							<div class="col-sm-12">
+								<a class="thumbnail " href="#">
+									<h2> EVENEMENTS  </h2>
+									<img src="https://storage.gra3.cloud.ovh.net/v1/AUTH_ca60d77ddd5e42749d7c4c17f753540d/ugm-data/pictures/cbtableaux/1971369-tableau-peinture-sur-toile-au-couteau-peinture-a-l-huile-1_medium.webp?1551121870" class=" KK img-circle bat">
+								</a>
+							</div>
+							
+
+						</div>
+						<div class="row" style="">						
+							<div class="col-sm-12">
+							<div class=" chocolat bob">
+								<h3>Nos Events...</h3>
+							</div>
+							</div>
+							
+
+						</div>
+
+
+					</div>
+					
+				</div>
+		</section>
                 </div>
             </div>
 
